@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
+  get 'pages/Pre-Trip'
+
     root "pages#home"
     get "about" => "pages#about"
     get "itinerary" => "pages#itinerary"
+    get "pretrip" => "pages#Pre-Trip"
     
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

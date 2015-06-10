@@ -6,5 +6,9 @@ class PagesController < ApplicationController
   end
    
   def itinerary 
-  end    
+  end   
+    
+  def pretrip 
+  end
+    
 end
